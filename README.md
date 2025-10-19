@@ -11,7 +11,8 @@ This project presents a **real-time, low-cost, and reliable fire detection and a
 - Integrate **real-time alert mechanisms**: buzzer, LED, and SMS notifications.
 
 ---
-##🗂️ Project Structure
+## 🗂️ Project Structure
+
 Fire-Detection/
 │
 ├─ data/                        # Custom dataset used for training and validation
@@ -39,7 +40,7 @@ Fire-Detection/
 │ 
 ├─ References.bib  #Bibliography / references
 │
-└─ README.md
+└─ README.md 
 
 ## ⚙️ Key Features
 
@@ -64,7 +65,7 @@ Fire-Detection/
 ---
 
 
-##📊 Results and Evaluation
+## 📊 Results and Evaluation
 The proposed system was evaluated using a custom annotated dataset collected from various online sources. The training and quantization of the YOLOv5n model yielded the following results:
 ![Results of Fire Detection System](runs/train/fire_detector/res.jpg)
 
