@@ -67,7 +67,7 @@ Fire-Detection/
 
 ## 📊 Results and Evaluation
 The proposed system was evaluated using a custom annotated dataset collected from various online sources. The training and quantization of the YOLOv5n model yielded the following results:
-![Results of Fire Detection System](runs/train/fire_detector/val_batch1_pred.jpg)
+![Results of Fire Detection System](runs/train/fire_detector/results.jpg)
 
 
 mAP@0.5: 91%
