@@ -11,6 +11,35 @@ This project presents a **real-time, low-cost, and reliable fire detection and a
 - Integrate **real-time alert mechanisms**: buzzer, LED, and SMS notifications.
 
 ---
+##🗂️ Project Structure
+Fire-Detection/
+│
+├─ data/                        # Custom dataset used for training and validation
+│   ├─ images/
+│   └─ labels/
+│
+├─ models/                      # Trained models
+│   ├─ best.pt                  # PyTorch model
+│   ├─ best.onnx                # ONNX model
+│   └─ best_int8.onnx           # Quantized INT8 ONNX model
+│
+├─ notebooks/
+│   └─ Yolov5_finetuning.ipynb  # Notebook for fine-tuning YOLOv5
+│
+├─ real_time_detection/
+│   └─ real_time_camera.py       # Script for real-time fire detection
+│
+├─ runs/      #Automatically generated training/testing results 
+│   ├─ detect              # Detections made
+│   ├─ train               # Train results (Curves, confusion matrix , val_batch_labels.jpg, weights(model)..)
+│   └─ val                 # Test results  (Curves, confusion matrix , val_batch_labels.jpg, weights(model)..)
+│
+│          
+├─ Report.pdf      #Project report
+│ 
+├─ References.bib  #Bibliography / references
+│
+└─ README.md
 
 ## ⚙️ Key Features
 
@@ -37,6 +66,8 @@ This project presents a **real-time, low-cost, and reliable fire detection and a
 
 ##📊 Results and Evaluation
 The proposed system was evaluated using a custom annotated dataset collected from various online sources. The training and quantization of the YOLOv5n model yielded the following results:
+![Results of Fire Detection System](runs/train/fire_detector/res.jpg)
+
 
 mAP@0.5: 91%
 
