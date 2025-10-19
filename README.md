@@ -12,7 +12,7 @@ This project presents a **real-time, low-cost, and reliable fire detection and a
 
 ---
 ## 🗂️ Project Structure
-
+```
 Fire-Detection/
 │
 ├─ data/                        # Custom dataset used for training and validation
@@ -41,7 +41,7 @@ Fire-Detection/
 ├─ References.bib  #Bibliography / references
 │
 └─ README.md 
-
+```
 ## ⚙️ Key Features
 
 - 🔍 **Fire Detection** using YOLOv5n (optimized version for edge devices).
