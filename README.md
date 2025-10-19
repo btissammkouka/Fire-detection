@@ -1,4 +1,4 @@
-# 🔥 Fire Detection and Alert System using YOLOv5
+# Fire Detection and Alert System using YOLOv5
 
 This project presents a **real-time, low-cost, and reliable fire detection and alert system** based on computer vision, designed to run on **embedded devices** such as the Raspberry Pi 4. The system uses **YOLOv5n**, a lightweight object detection model, to detect fire in live video streams and trigger alerts through sound, light, and SMS notifications.
 
